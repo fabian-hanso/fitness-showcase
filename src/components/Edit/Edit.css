@@ -1,0 +1,18 @@
+.EditWrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1.5rem;
+  padding: 125px 20px 20px 20px;
+}
+
+.EditSubmitButton {
+  background-color: #8033ff !important;
+}
+
+@media screen and (min-width: 1500px) {
+  .EditWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+  }
+}

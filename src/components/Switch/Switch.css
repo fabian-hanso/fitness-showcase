@@ -1,0 +1,24 @@
+.Switch {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #8033ff;
+  /* background: rgb(128, 51, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 51, 255, 1) 0%,
+    rgba(50, 136, 214, 1) 100%
+  ); */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* .Switch:hover {
+  transform: rotate(15deg);
+} */
